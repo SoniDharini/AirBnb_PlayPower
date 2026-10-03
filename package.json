@@ -2,6 +2,9 @@
   "name": "mirashya-listing",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "build": "npm run build --prefix frontend"
   }

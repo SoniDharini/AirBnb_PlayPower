@@ -206,9 +206,11 @@ The built site is written to `frontend/dist`. To serve the API without file watc
 
 ## Deploy on Vercel
 
-One Vercel project serves the React site and the Express API. The site is the static Vite build. Requests to `/api` run `api/index.js`, which uses the same Express app as local development. Listing pages such as `/rooms/mirashya-ug10` fall back to `index.html` so React Router can open them.
+One Vercel project serves the React site and the Express API. `vercel.json` installs both packages, builds the Vite app into `frontend/dist`, and routes `/api` to `api/index.js`. That file runs the same Express app as local development, without opening a port. Listing URLs such as `/rooms/mirashya-ug10` fall back to `index.html` so React Router can open them.
 
-Do not set `VITE_API_BASE_URL` in the Vercel project. A production build then calls `/api` on the same domain. Local `.env` files stay on your machine and are not uploaded.
+Leave `VITE_API_BASE_URL` unset in the Vercel project. The production build then calls `/api` on the same domain. Local `.env` files are listed in `.gitignore`, so they are not uploaded. `frontend/.env.example` and `backend/.env.example` stay in git.
+
+`CLIENT_URL` is only needed if the website and the API are on different domains. On this single-project deploy, browser calls are same-origin and that variable can stay empty.
 
 Reservations are stored in memory. A new serverless instance starts with an empty booking list.
 
@@ -216,31 +218,38 @@ Reservations are stored in memory. A new serverless instance starts with an empt
 
 1. Push this folder to GitHub, GitLab, or Bitbucket.
 2. Open [vercel.com/new](https://vercel.com/new) and import that repository.
-3. Leave the root directory as the repository root. Do not set it to `frontend`.
-4. Framework preset: **Other**. The build settings already live in `vercel.json`:
-   - Install: `npm install --prefix frontend && npm install --prefix backend`
+3. Leave the root directory as the repository root. Do not set it to `frontend` or `backend`.
+4. Framework preset: **Other**. Override nothing. `vercel.json` already sets:
+   - Install: `npm ci --prefix frontend && npm ci --prefix backend`
    - Build: `npm run build --prefix frontend`
    - Output: `frontend/dist`
-5. Deploy. Open the URL Vercel prints.
-6. Check `https://<your-domain>/api/health`. It should return `{ "ok": true }`. Then open the site URL. It should show the Candolim listing.
+5. Environment variables: add none for the default deploy.
+6. Deploy. Open the URL Vercel prints.
+7. Check `https://<your-domain>/api/health`. It should return `{ "ok": true }`. Then open the site URL. It should show the Candolim listing.
+
+Later pushes to the connected branch deploy automatically.
 
 ### Option B — Vercel CLI
 
-From the project root, after [installing the Vercel CLI](https://vercel.com/docs/cli) and signing in:
+From the project root, after [installing the Vercel CLI](https://vercel.com/docs/cli):
 
 ```powershell
+npx vercel login
 npx vercel
 ```
 
-Accept the defaults for a new project, with the current folder as the root. For a production deployment:
+Accept the defaults for a new project, and keep the current folder as the root. That command creates a preview deployment. For production:
 
 ```powershell
 npx vercel --prod
 ```
 
+The CLI writes a local `.vercel` folder. That folder is gitignored.
+
 ### After deploy
 
 - Listing: `https://<your-domain>/rooms/mirashya-ug10`
+- Photo tour: `https://<your-domain>/rooms/mirashya-ug10/photos`
 - Health: `https://<your-domain>/api/health`
 - Quote: `POST https://<your-domain>/api/bookings/quote`
 

@@ -1,11 +1,22 @@
+# Dependencies and build output
 node_modules/
-.vercel/
 dist/
-coverage/
-.env
-*.log
-.DS_Store
-Thumbs.db
 .vite/
+
+# Local environment. Example files stay tracked.
+.env
+.env.*
+!.env.example
+
+# Vercel CLI project link
+.vercel/
+
+# Test and tooling output
+coverage/
 playwright-report/
 test-results/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
