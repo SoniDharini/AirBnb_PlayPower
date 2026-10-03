@@ -54,7 +54,7 @@ The page is API-driven. The React app loads the listing, availability, price quo
 - Backend: Node.js, Express, JSON data
 - Tests: Vitest, React Testing Library, Supertest
 
-Requires Node.js 18 or newer.
+Requires Node.js 22 or newer. Vercel deploys with Node.js 24.
 
 ## Folder structure
 
