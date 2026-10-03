@@ -1,0 +1,11 @@
+node_modules/
+.vercel/
+dist/
+coverage/
+.env
+*.log
+.DS_Store
+Thumbs.db
+.vite/
+playwright-report/
+test-results/

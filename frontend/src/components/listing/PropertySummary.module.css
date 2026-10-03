@@ -1,0 +1,105 @@
+.summary { padding-top: 32px; }
+
+.top h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.facts {
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222;
+}
+
+.favourite {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.laurels {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex: none;
+}
+
+.laurels p {
+  width: 72px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.laurel { width: 22px; height: 40px; flex: none; }
+.laurelFlip { transform: scaleX(-1); }
+
+.loved {
+  flex: 1;
+  min-width: 120px;
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.score,
+.count {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+  gap: 2px;
+}
+
+.score strong,
+.count strong {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.starRow { display: inline-flex; gap: 1px; }
+
+.count span {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.vRule {
+  width: 1px;
+  height: 32px;
+  background: #dddddd;
+  flex: none;
+}
+
+.host {
+  margin-top: 8px;
+  padding: 24px 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  display: block;
+}
+
+.avatar svg { width: 48px; height: 48px; display: block; }
+
+.hostName { font-size: 16px; font-weight: 600; line-height: 20px; }
+.hostMeta { color: #6a6a6a; font-size: 14px; line-height: 18px; margin-top: 2px; }

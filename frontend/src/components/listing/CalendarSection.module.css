@@ -1,0 +1,131 @@
+.section {
+  padding: 48px 0 8px;
+  border-top: 1px solid #dddddd;
+  margin-top: 48px;
+  scroll-margin-top: 150px;
+  display: flow-root;
+}
+
+.intro h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.intro p {
+  margin-top: 8px;
+  color: #6a6a6a;
+  font-size: 14px;
+}
+
+.months {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.month h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.nav {
+  position: absolute;
+  top: -4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+}
+
+.nav:hover { background: #f7f7f7; }
+.navLeft { left: 0; }
+.navRight { right: 0; }
+
+.weekdays, .week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekdays {
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.day, .empty {
+  height: 46px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.day { position: relative; }
+
+.between::before,
+.rangeStart::before,
+.rangeEnd::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  background: #c4c4c4;
+}
+
+.between::before { left: 0; right: 0; }
+.rangeStart::before { left: 50%; right: 0; }
+.rangeEnd::before { left: 0; right: 50%; }
+.rangeStart.rangeEnd::before { content: none; }
+
+.num {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.day:hover:not(:disabled) .num,
+.day:focus-visible .num { outline: 1px solid #222; }
+
+.selected {
+  background: #222;
+  color: #fff;
+}
+
+.disabled {
+  color: #d1d1d1;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.clear {
+  margin-top: 16px;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+  border: 0;
+  background: transparent;
+  padding: 8px 0;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 800px) {
+  .months { grid-template-columns: 1fr; }
+  .navRight { display: none; }
+}

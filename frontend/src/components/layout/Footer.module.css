@@ -1,0 +1,48 @@
+.footer {
+  margin-top: 48px;
+  border-top: 1px solid #dddddd;
+  background: #f7f7f7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 48px 0 32px;
+}
+
+.grid h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+
+.grid button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: #222;
+  font-size: 14px;
+  text-align: left;
+}
+
+.grid button:hover { text-decoration: underline; }
+
+.bottom { border-top: 1px solid #dddddd; background: #fff; }
+
+.bottomInner {
+  min-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  color: #222;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .grid { grid-template-columns: 1fr; }
+  .bottomInner { flex-direction: column; align-items: flex-start; padding: 16px 0; }
+}

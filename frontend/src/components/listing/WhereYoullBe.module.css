@@ -1,0 +1,25 @@
+.section {
+  padding: 48px 0 0;
+  border-top: 1px solid #dddddd;
+  margin-top: 48px;
+  scroll-margin-top: 150px;
+}
+
+.section h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.place { margin-top: 24px; font-weight: 600; }
+.copy { margin-top: 8px; max-width: 640px; line-height: 24px; }
+
+.mapWrap {
+  margin-top: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 420px;
+  background: #f7f7f7;
+}
+
+.mapWrap iframe { width: 100%; height: 100%; border: 0; }

@@ -1,0 +1,265 @@
+.sticky {
+  position: sticky;
+  top: 148px;
+  width: 100%;
+  max-width: var(--card-col);
+  margin-left: auto;
+  display: grid;
+  gap: 16px;
+}
+
+.offer {
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: #fff;
+}
+
+.offerMain {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.offerIcon {
+  width: 28px;
+  height: 32px;
+  object-fit: contain;
+  flex: none;
+  display: block;
+}
+
+.offer p { font-size: 14px; font-weight: 600; line-height: 18px; }
+
+.terms {
+  margin-top: 4px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: #6a6a6a;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.termsCopy {
+  flex-basis: 100%;
+  margin: 0;
+  color: #6a6a6a;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.claim {
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: 1px solid #222;
+  background: #fff;
+  font-weight: 600;
+  flex: none;
+}
+
+.claim:hover:not(:disabled) { background: #f7f7f7; }
+.claim:disabled { color: #6a6a6a; cursor: default; background: #f7f7f7; }
+.offerClaimed { background: #f7f7f7; }
+
+.card {
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  padding: 24px;
+  background: #fff;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.price { font-size: 22px; line-height: 26px; font-weight: 600; }
+.priceRow p span:last-child { font-size: 16px; font-weight: 400; }
+
+.picker {
+  margin-top: 16px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.date, .guests {
+  background: #fff;
+  text-align: left;
+  border: 0;
+  padding: 10px 12px;
+  min-height: 56px;
+}
+
+.date:hover, .guests:hover { background: #f7f7f7; }
+.checkout { border-left: 1px solid #222; }
+
+.date span, .kicker {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.date strong, .guests strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.guests {
+  grid-column: 1 / -1;
+  border-top: 1px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 8px 8px;
+}
+
+.guestAnchor { grid-column: 1 / -1; position: relative; }
+
+.guestPopover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 8px);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  padding: 8px 16px 16px;
+  z-index: 3;
+}
+
+.cancelNote {
+  margin-top: 16px;
+  padding: 14px 12px;
+  border-radius: 8px;
+  background: #f2f2f2;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222;
+}
+
+.reserve {
+  width: 100%;
+  height: 48px;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--reserve);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reserve:hover:not(:disabled) { filter: brightness(0.96); }
+.reserve:active:not(:disabled) { transform: scale(0.99); }
+.reserve:disabled { opacity: 0.7; cursor: progress; }
+
+.note {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #222;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+  border: 0;
+  background: transparent;
+  padding: 8px;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.report span {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.error {
+  margin-top: 10px;
+  color: #c13515;
+  font-size: 14px;
+  text-align: center;
+}
+
+.confirm dl, .success dl {
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.confirm dl div, .success dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.confirm dt, .success dt { color: #6a6a6a; }
+.confirm dd, .success dd { margin: 0; font-weight: 600; text-align: right; }
+
+.bookingActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.cancel,
+.bookingActions .reserve {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: auto;
+  height: 48px;
+  margin: 0;
+  padding: 0 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.cancel {
+  border: 1px solid #222;
+  background: #fff;
+  color: #222;
+}
+
+.cancel:hover { background: #f7f7f7; }
+
+.success .reserve { width: auto; padding: 0 22px; margin-top: 16px; }
+
+.success p { margin-bottom: 16px; line-height: 24px; }
+
+@media (max-width: 900px) {
+  .sticky { position: static; max-width: none; }
+}

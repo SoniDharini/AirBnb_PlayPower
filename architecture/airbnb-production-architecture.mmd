@@ -1,0 +1,78 @@
+flowchart TB
+  Users[Guests and hosts]
+
+  subgraph edgeLayer [Edge]
+    CDN[CDN and edge network]
+    StaticCDN[Static asset CDN]
+    LB[Load balancer and API gateway]
+  end
+
+  subgraph clients [Clients]
+    Web[React or Next.js web app]
+  end
+
+  subgraph services [Backend services]
+    Auth[Authentication service]
+    Listing[Listing service]
+    Search[Search service]
+    Booking[Booking service]
+    Payment[Payment service]
+    Review[Review service]
+    Media[Media service]
+    Notify[Notification service]
+  end
+
+  subgraph data [Storage and search]
+    PG[(PostgreSQL primary)]
+    Replica[(Read replicas)]
+    Redis[(Redis cache)]
+    S3[(Object storage / S3)]
+    OS[(OpenSearch or Elasticsearch)]
+  end
+
+  subgraph asyncLayer [Messaging]
+    Bus[Kafka or message queue]
+  end
+
+  subgraph platform [Infrastructure]
+    Docker[Docker images]
+    K8s[Kubernetes and autoscaling]
+    CICD[CI/CD]
+    Obs[Logging, metrics, tracing, alerting]
+  end
+
+  Users --> CDN
+  CDN --> Web
+  StaticCDN --> Web
+  Web --> LB
+  LB --> Auth
+  LB --> Listing
+  LB --> Search
+  LB --> Booking
+  LB --> Review
+  LB --> Media
+
+  Listing --> PG
+  Listing --> Replica
+  Listing --> Redis
+  Search --> OS
+  Search --> Redis
+  Booking --> PG
+  Booking --> Redis
+  Review --> PG
+  Review --> Replica
+  Media --> S3
+  Auth --> PG
+  Auth --> Redis
+  CDN --> S3
+
+  Booking --> Bus
+  Bus --> Payment
+  Bus --> Notify
+  Bus --> Search
+
+  Docker --> K8s
+  CICD --> K8s
+  K8s --> services
+  Obs --> services
+  Obs --> data

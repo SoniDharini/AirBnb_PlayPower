@@ -1,0 +1,44 @@
+.section {
+  padding: 48px 0 0;
+  border-top: 1px solid #dddddd;
+  margin-top: 32px;
+}
+
+.section h2 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.card { min-width: 0; }
+
+.photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+.card h3 {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.card p {
+  margin-top: 2px;
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 18px;
+}

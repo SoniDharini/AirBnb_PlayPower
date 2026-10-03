@@ -1,0 +1,42 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--card-col);
+  column-gap: var(--col-gap);
+  align-items: start;
+  margin-top: 16px;
+}
+
+.skeletonTitle {
+  height: 32px;
+  width: 62%;
+  margin: 28px 0 16px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f2f2f2, #e7e7e7, #f2f2f2);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+.skeletonHero {
+  height: 428px;
+  border-radius: 12px;
+  background: #f2f2f2;
+}
+
+.retry {
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 8px;
+  border: 1px solid #222;
+  background: #fff;
+  font-weight: 600;
+}
+
+@keyframes shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; row-gap: 32px; }
+  .skeletonHero { height: 240px; }
+}

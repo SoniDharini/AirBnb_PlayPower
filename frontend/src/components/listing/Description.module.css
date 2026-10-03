@@ -1,0 +1,45 @@
+.section {
+  position: relative;
+  padding: 32px 0 8px;
+  border-top: 1px solid #dddddd;
+  margin-top: 8px;
+}
+
+.clip {
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.clip p + p { margin-top: 16px; }
+
+.clip p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222;
+}
+
+.fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  height: 56px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 80%);
+  pointer-events: none;
+}
+
+.more {
+  margin-top: 8px;
+  border: 0;
+  background: transparent;
+  padding: 4px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.up { transform: rotate(180deg); }

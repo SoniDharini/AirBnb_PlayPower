@@ -1,0 +1,9 @@
+.fallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  background:
+    linear-gradient(160deg, rgba(255, 255, 255, 0.28), transparent 42%),
+    linear-gradient(135deg, #d9d2c8, #b7c4c1 55%, #e7dfd6);
+}

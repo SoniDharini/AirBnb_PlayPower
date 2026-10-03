@@ -1,0 +1,14 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  width: max-content;
+  text-decoration: none;
+  color: #ff385c;
+}
+
+.mark {
+  display: block;
+  height: 32px;
+  width: auto;
+}

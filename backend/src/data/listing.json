@@ -1,0 +1,572 @@
+{
+  "id": "mirashya-ug10",
+  "title": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10",
+  "location": "Candolim, India",
+  "city": "Candolim",
+  "region": "North Goa",
+  "propertyType": "Entire serviced apartment",
+  "maxGuests": 3,
+  "bedrooms": 1,
+  "beds": 1,
+  "bathrooms": 1,
+  "rating": 4.95,
+  "reviewCount": 19,
+  "coordinates": { "lat": 15.518, "lng": 73.762 },
+  "price": {
+    "currency": "INR",
+    "pricePerNight": 5699.8,
+    "symbol": "₹"
+  },
+  "availability": {
+    "blockedDates": [
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08",
+      "2026-11-09",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ]
+  },
+  "host": {
+    "id": "mirashya-homes",
+    "name": "Mirashya Homes",
+    "initials": "M",
+    "hostingYears": 2,
+    "reviewCount": 1463,
+    "rating": 4.68,
+    "responseRate": "100%",
+    "responseTime": "within an hour",
+    "about": "Mirashya Homes looks after a small collection of serviced apartments in North Goa. The team prepares each apartment before arrival, shares check-in details in advance, and stays reachable through the stay.",
+    "details": [
+      "Born in the 80s",
+      "Where I went to school: NCHM Goa"
+    ],
+    "cohosts": [
+      { "id": "ananya", "name": "Ananya", "image": "/images/host-1.jpg" },
+      { "id": "rohan", "name": "Rohan", "image": "/images/host-2.jpg" },
+      { "id": "leah", "name": "Leah", "image": "/images/host-3.jpg" }
+    ]
+  },
+  "highlights": [
+    {
+      "id": "outdoor",
+      "icon": "spark",
+      "title": "Outdoor entertainment",
+      "description": "A private balcony jacuzzi and access to the shared pool sit just outside the apartment."
+    },
+    {
+      "id": "cool",
+      "icon": "wind",
+      "title": "Designed for staying cool",
+      "description": "Air conditioning and a ceiling fan keep the bedroom and living room comfortable."
+    },
+    {
+      "id": "checkin",
+      "icon": "key",
+      "title": "Self check-in",
+      "description": "Check yourself in with the lockbox."
+    }
+  ],
+  "description": "Welcome to Amor de Goa by Mirashya Homes, a one-bedroom serviced apartment in Candolim. The stay is set up for a quiet couple's visit: a private jacuzzi on the balcony, a bright living room, a separate bedroom, and a kitchen you can actually cook in.\n\nThe apartment is inside a gated building with a shared swimming pool, free parking, and a caretaker on the property. Candolim Beach, cafés, and the evening stretch toward Calangute are a short ride away. Fort Aguada and Sinquerim are easy to reach, and MOPA airport is typically 35 to 40 minutes by car.\n\nInside you will find high-speed Wi-Fi, a dedicated workspace, a smart TV, fresh linens, and housekeeping during the stay. Pets are welcome. The building has exterior security cameras in the common areas.\n\nThis is a self check-in apartment. The lockbox code is sent before arrival, and the host team is available if the door, the jacuzzi, or the pool hours need a hand.",
+  "sleeping": [
+    {
+      "id": "bedroom",
+      "room": "Bedroom",
+      "beds": "1 double bed",
+      "image": "/images/sleep-bedroom.png"
+    },
+    {
+      "id": "living",
+      "room": "Living room",
+      "beds": "1 sofa",
+      "image": "/images/sleep-living.png"
+    }
+  ],
+  "amenitiesPreview": [
+    "kitchen",
+    "workspace",
+    "pool",
+    "pets",
+    "co-alarm",
+    "wifi",
+    "parking",
+    "hottub",
+    "cameras",
+    "smoke-alarm"
+  ],
+  "amenities": [
+    { "id": "kitchen", "name": "Kitchen", "icon": "kitchen", "category": "Kitchen and dining" },
+    { "id": "workspace", "name": "Dedicated workspace", "icon": "workspace", "category": "Internet and office" },
+    { "id": "pool", "name": "Pool", "icon": "pool", "category": "Outdoor" },
+    { "id": "pets", "name": "Pets allowed", "icon": "pets", "category": "Services" },
+    { "id": "co-alarm", "name": "Carbon monoxide alarm", "icon": "alarm", "category": "Home safety" },
+    { "id": "wifi", "name": "Wifi", "icon": "wifi", "category": "Internet and office" },
+    { "id": "parking", "name": "Free parking on premises", "icon": "parking", "category": "Parking and facilities" },
+    { "id": "hottub", "name": "Hot tub", "icon": "hottub", "category": "Outdoor" },
+    { "id": "cameras", "name": "Exterior security cameras on property", "icon": "camera", "category": "Home safety" },
+    { "id": "smoke-alarm", "name": "Smoke alarm", "icon": "smoke", "category": "Home safety" },
+    { "id": "ac", "name": "Air conditioning", "icon": "wind", "category": "Heating and cooling" },
+    { "id": "fan", "name": "Ceiling fan", "icon": "fan", "category": "Heating and cooling" },
+    { "id": "tv", "name": "TV", "icon": "tv", "category": "Entertainment" },
+    { "id": "self-checkin", "name": "Self check-in", "icon": "key", "category": "Services" },
+    { "id": "lockbox", "name": "Lockbox", "icon": "lock", "category": "Services" },
+    { "id": "balcony", "name": "Private balcony", "icon": "balcony", "category": "Outdoor" },
+    { "id": "furniture", "name": "Outdoor furniture", "icon": "chair", "category": "Outdoor" },
+    { "id": "fridge", "name": "Refrigerator", "icon": "fridge", "category": "Kitchen and dining" },
+    { "id": "microwave", "name": "Microwave", "icon": "microwave", "category": "Kitchen and dining" },
+    { "id": "stove", "name": "Stove", "icon": "stove", "category": "Kitchen and dining" },
+    { "id": "oven", "name": "Oven", "icon": "oven", "category": "Kitchen and dining" },
+    { "id": "coffee", "name": "Coffee maker", "icon": "coffee", "category": "Kitchen and dining" },
+    { "id": "cookware", "name": "Cooking basics", "icon": "utensils", "category": "Kitchen and dining" },
+    { "id": "dishes", "name": "Dishes and silverware", "icon": "dishes", "category": "Kitchen and dining" },
+    { "id": "kettle", "name": "Electric kettle", "icon": "kettle", "category": "Kitchen and dining" },
+    { "id": "toaster", "name": "Toaster", "icon": "toaster", "category": "Kitchen and dining" },
+    { "id": "dining", "name": "Dining table", "icon": "dining", "category": "Kitchen and dining" },
+    { "id": "wine", "name": "Wine glasses", "icon": "wine", "category": "Kitchen and dining" },
+    { "id": "linens", "name": "Bed linens", "icon": "bed", "category": "Bedroom and laundry" },
+    { "id": "pillows", "name": "Extra pillows and blankets", "icon": "pillow", "category": "Bedroom and laundry" },
+    { "id": "hangers", "name": "Hangers", "icon": "hanger", "category": "Bedroom and laundry" },
+    { "id": "storage", "name": "Clothing storage", "icon": "storage", "category": "Bedroom and laundry" },
+    { "id": "shades", "name": "Room-darkening shades", "icon": "shades", "category": "Bedroom and laundry" },
+    { "id": "iron", "name": "Iron", "icon": "iron", "category": "Bedroom and laundry" },
+    { "id": "essentials", "name": "Essentials", "icon": "essentials", "category": "Bedroom and laundry" },
+    { "id": "washer-nearby", "name": "Washer", "icon": "washer", "category": "Bedroom and laundry" },
+    { "id": "dryer", "name": "Dryer", "icon": "dryer", "category": "Bedroom and laundry" },
+    { "id": "hot-water", "name": "Hot water", "icon": "water", "category": "Bathroom" },
+    { "id": "shampoo", "name": "Shampoo", "icon": "shampoo", "category": "Bathroom" },
+    { "id": "soap", "name": "Body soap", "icon": "soap", "category": "Bathroom" },
+    { "id": "hairdryer", "name": "Hair dryer", "icon": "dryer", "category": "Bathroom" },
+    { "id": "towels", "name": "Towels", "icon": "towel", "category": "Bathroom" },
+    { "id": "extinguisher", "name": "Fire extinguisher", "icon": "extinguisher", "category": "Home safety" },
+    { "id": "firstaid", "name": "First aid kit", "icon": "firstaid", "category": "Home safety" },
+    { "id": "entrance", "name": "Private entrance", "icon": "door", "category": "Parking and facilities" },
+    { "id": "staff", "name": "Building staff", "icon": "staff", "category": "Services" },
+    { "id": "housekeeping", "name": "Housekeeping", "icon": "clean", "category": "Services" },
+    { "id": "luggage", "name": "Luggage dropoff allowed", "icon": "luggage", "category": "Services" },
+    { "id": "longstay", "name": "Long term stays allowed", "icon": "calendar", "category": "Services" },
+    { "id": "books", "name": "Books and reading material", "icon": "book", "category": "Entertainment" }
+  ],
+  "houseRules": {
+    "summary": [
+      "Check-in after 2:00 PM",
+      "Checkout before 11:00 AM",
+      "3 guests maximum"
+    ],
+    "details": [
+      "Check-in after 2:00 PM",
+      "Checkout before 11:00 AM",
+      "3 guests maximum",
+      "Self check-in with lockbox",
+      "Pets allowed",
+      "Quiet hours after 10:00 PM",
+      "No parties or events",
+      "No smoking inside the apartment",
+      "Shared pool hours are posted at the deck",
+      "Please rinse off before using the jacuzzi"
+    ]
+  },
+  "cancellation": {
+    "summary": "Free cancellation before check-in. Cancel before the day of arrival for a full refund of the stay total shown in this demo.",
+    "details": [
+      "Cancel more than 24 hours before check-in for a full refund of the stay total.",
+      "Cancellations within 24 hours of check-in are refunded for unused nights, excluding the first night.",
+      "The reservation in this demo does not charge a card. Confirming only records the stay."
+    ]
+  },
+  "safety": {
+    "summary": [
+      "Carbon monoxide alarm",
+      "Smoke alarm",
+      "Exterior security cameras on property"
+    ],
+    "details": [
+      "Carbon monoxide alarm installed",
+      "Smoke alarm installed",
+      "Fire extinguisher and first aid kit in the kitchen cupboard",
+      "Exterior security cameras cover the entrance and pool deck. They do not look into the apartment.",
+      "The balcony jacuzzi and shared pool have no lifeguard",
+      "Pool depth varies. Not suitable for unsupervised children"
+    ]
+  },
+  "ratingCategories": [
+    { "id": "cleanliness", "label": "Cleanliness", "score": 5.0 },
+    { "id": "accuracy", "label": "Accuracy", "score": 5.0 },
+    { "id": "checkin", "label": "Check-in", "score": 5.0 },
+    { "id": "communication", "label": "Communication", "score": 5.0 },
+    { "id": "location", "label": "Location", "score": 4.8 },
+    { "id": "value", "label": "Value", "score": 4.8 }
+  ],
+  "reviewHighlights": [
+    { "id": "comfort", "label": "Comfort", "count": 6 },
+    { "id": "accuracy", "label": "Accuracy", "count": 5 },
+    { "id": "hotTub", "label": "Hot tub", "count": 5 },
+    { "id": "condition", "label": "Condition", "count": 4 },
+    { "id": "hospitality", "label": "Hospitality", "count": 8 },
+    { "id": "cleanliness", "label": "Cleanliness", "count": 4 },
+    { "id": "amenities", "label": "Amenities", "count": 2 }
+  ],
+  "ratingDistribution": [
+    { "stars": 5, "count": 17 },
+    { "stars": 4, "count": 2 },
+    { "stars": 3, "count": 0 },
+    { "stars": 2, "count": 0 },
+    { "stars": 1, "count": 0 }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Amit",
+      "location": "India",
+      "tenure": "2 months on Airbnb",
+      "date": "1 week ago",
+      "rating": 5,
+      "avatarColor": "#f3e6d4",
+      "text": "Very helpful and responsive team. Safe and peaceful stay. loved everything about the property."
+    },
+    {
+      "id": "r2",
+      "name": "Aheesh",
+      "location": "India",
+      "tenure": "3 years on Airbnb",
+      "date": "2 weeks ago",
+      "rating": 5,
+      "avatar": "/images/review-aheesh.png",
+      "preview": "We had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again.",
+      "text": "We had a wonderful stay. The apartment was clean, comfortable, and exactly as shown in the photos. The host was very responsive and helpful throughout our stay. We would definitely recommend this place and would love to stay here again. Check-in was simple, and the apartment stayed quiet in the evenings."
+    },
+    {
+      "id": "r3",
+      "name": "Samiksha",
+      "location": "India",
+      "tenure": "8 months on Airbnb",
+      "date": "May 2026",
+      "rating": 5,
+      "avatar": "/images/review-samiksha.png",
+      "text": "the host nitish was really great help"
+    },
+    {
+      "id": "r4",
+      "name": "Vedant",
+      "location": "India",
+      "tenure": "4 years on Airbnb",
+      "date": "May 2026",
+      "rating": 5,
+      "avatarColor": "#e4dcf5",
+      "preview": "We had an amazing stay at this property in Goa! The entire home was spotless and exceptionally well-maintained, making us feel comfortable from the moment we arrived. The cleanliness standards were truly impressive, with every corner of the house looking fresh and pristine....",
+      "text": "We had an amazing stay at this property in Goa! The entire home was spotless and exceptionally well-maintained, making us feel comfortable from the moment we arrived. The cleanliness standards were truly impressive, with every corner of the house looking fresh and pristine. The host answered every question before we arrived, and check-in with the lockbox was simple."
+    },
+    {
+      "id": "r5",
+      "name": "Maya",
+      "location": "Pune, India",
+      "date": "July 2026",
+      "rating": 5,
+      "text": "We came for a long weekend and used the kitchen every morning. Cookware, coffee, and a proper fridge were all there. The pool is shared but never felt crowded before noon."
+    },
+    {
+      "id": "r6",
+      "name": "Daniel",
+      "location": "Singapore",
+      "date": "July 2026",
+      "rating": 4,
+      "text": "Accurate listing. The gym in the building is small but enough for a short workout. Location is convenient for north Goa without being in the loudest lane. I took one star off only because the sofa is a little firm."
+    },
+    {
+      "id": "r7",
+      "name": "Aisha",
+      "location": "Hyderabad, India",
+      "date": "June 2026",
+      "rating": 5,
+      "text": "Mirashya Homes was responsive when we asked for a late checkout. The apartment smells clean, linens were fresh, and the bathroom had reliable hot water. Pets are genuinely welcome — our dog had a water bowl waiting."
+    },
+    {
+      "id": "r8",
+      "name": "Leo",
+      "location": "Berlin, Germany",
+      "date": "June 2026",
+      "rating": 5,
+      "text": "A calm base for Candolim. We walked to dinner most nights and used the car for Fort Aguada. Self check-in meant we did not have to wait after a delayed flight."
+    },
+    {
+      "id": "r9",
+      "name": "Priya",
+      "location": "Chennai, India",
+      "date": "May 2026",
+      "rating": 5,
+      "text": "The living room gets lovely light in the morning. Photos match the space. I liked that the bedroom has shades that actually darken the room."
+    },
+    {
+      "id": "r10",
+      "name": "Owen",
+      "location": "Dublin, Ireland",
+      "date": "May 2026",
+      "rating": 5,
+      "text": "Hot tub on the balcony, pool downstairs, beach nearby. That is the whole review. Also: the smoke alarm and extinguisher were easy to spot, which I always look for."
+    },
+    {
+      "id": "r11",
+      "name": "Ritika",
+      "location": "Jaipur, India",
+      "date": "April 2026",
+      "rating": 4,
+      "text": "Lovely stay with my sister. The apartment fits two people comfortably and a third on a short visit. Value felt fair for Candolim in season. Communication from the co-host was warm and specific."
+    },
+    {
+      "id": "r12",
+      "name": "Hugo",
+      "location": "Lisbon, Portugal",
+      "date": "April 2026",
+      "rating": 5,
+      "text": "We cooked two nights and ate out the rest. The kitchen is compact and complete. Candolim is an easy neighborhood if you want the beach without staying on top of a club."
+    },
+    {
+      "id": "r13",
+      "name": "Meera",
+      "location": "Ahmedabad, India",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Everything in the listing was there: workspace, Wi-Fi, parking, pool, jacuzzi. No surprises. The building cameras are outside only, which the host had already explained."
+    },
+    {
+      "id": "r14",
+      "name": "Chris",
+      "location": "Sydney, Australia",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Arrived after dark and the lockbox was exactly where the photo said. Apartment was cool because the AC had been left on a timer. Thoughtful host team."
+    },
+    {
+      "id": "r15",
+      "name": "Anjali",
+      "location": "Kochi, India",
+      "date": "February 2026",
+      "rating": 5,
+      "text": "Romantic without being fussy. The bedroom is the nicest part — crisp linen and a fan if you do not want AC all night. We spent one afternoon just on the balcony."
+    },
+    {
+      "id": "r16",
+      "name": "Noah",
+      "location": "Toronto, Canada",
+      "date": "February 2026",
+      "rating": 5,
+      "text": "Great location for a first Goa trip. Fort, beach, and cafés were all simple from here. The shared gym was a bonus I did not expect to use, and I did."
+    },
+    {
+      "id": "r17",
+      "name": "Tara",
+      "location": "Dubai, United Arab Emirates",
+      "date": "January 2026",
+      "rating": 5,
+      "text": "Clean, accurate, and easy. Housekeeping mid-stay was discreet. I messaged about extra towels and they were at the door the same hour."
+    },
+    {
+      "id": "r18",
+      "name": "Vikram",
+      "location": "Kolkata, India",
+      "date": "January 2026",
+      "rating": 5,
+      "text": "The 1BHK layout works well. Living room for the day, bedroom for sleep, balcony for the evening. Candolim traffic exists, but the building itself is calm."
+    },
+    {
+      "id": "r19",
+      "name": "Elena",
+      "location": "Milan, Italy",
+      "date": "December 2025",
+      "rating": 5,
+      "text": "We stayed five nights and never felt like we were missing a hotel. The apartment has the practical things — iron, hair dryer, blackout shades — and the not-so-practical thing we actually came for, which is the jacuzzi. Mirashya Homes knows how to look after a small place."
+    }
+  ],
+  "heroPhotoIds": ["jacuzzi-balcony", "bedroom-01", "living-01", "kitchen-01", "pool-01"],
+  "photoSections": [
+    {
+      "id": "additional",
+      "title": "Additional photos",
+      "description": "Balcony jacuzzi · Shared pool · Beach nearby · Building exterior",
+      "layout": "mosaic",
+      "photos": [
+        {
+          "id": "jacuzzi-balcony",
+          "url": "/images/jacuzzi-balcony.jpg",
+          "alt": "Resort-style pool terrace with loungers in warm evening light",
+          "width": 1600,
+          "height": 1067,
+          "wide": true
+        },
+        {
+          "id": "spa-01",
+          "url": "/images/spa-01.jpg",
+          "alt": "Close view of bubbling spa water",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "balcony-01",
+          "url": "/images/balcony-01.jpg",
+          "alt": "Tropical resort balcony overlooking greenery",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "pool-01",
+          "url": "/images/pool-01.jpg",
+          "alt": "Outdoor swimming pool with clear blue water",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "beach-candolim",
+          "url": "/images/beach-candolim.jpg",
+          "alt": "Sandy beach and turquoise water near Candolim",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "resort-exterior",
+          "url": "/images/resort-exterior.jpg",
+          "alt": "Modern building exterior with a clean facade",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "title": "Bedroom",
+      "description": "Double bed · Air conditioning · Bed linen · Ceiling fan · Clothes storage",
+      "layout": "feature",
+      "photos": [
+        {
+          "id": "bedroom-01",
+          "url": "/images/bedroom-01.jpg",
+          "alt": "Bright bedroom with a neatly made double bed and white linens",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "bedroom-02",
+          "url": "/images/bedroom-02.jpg",
+          "alt": "Hotel-style bedroom with layered pillows and soft lighting",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "bedroom-03",
+          "url": "/images/bedroom-03.jpg",
+          "alt": "Close view of pillows and bed linen on a double bed",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "living-room-1",
+      "title": "Living room 1",
+      "description": "Sofa · Natural light · Smart TV · Workspace",
+      "layout": "columns",
+      "photos": [
+        {
+          "id": "living-01",
+          "url": "/images/living-01.jpg",
+          "alt": "Modern living room with a sofa, coffee table, and wood accents",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "living-02",
+          "url": "/images/living-02.jpg",
+          "alt": "Bright living room with a grey sofa and large windows",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "living-room-2",
+      "title": "Living room 2",
+      "description": "Seating area · Dining table · Balcony access",
+      "layout": "quad",
+      "photos": [
+        {
+          "id": "living-03",
+          "url": "/images/living-03.jpg",
+          "alt": "Beige living room with a low sofa and soft daylight",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "living-04",
+          "url": "/images/living-04.jpg",
+          "alt": "Apartment living space with a sofa facing the windows",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "dining-01",
+          "url": "/images/dining-01.jpg",
+          "alt": "Dining table set beside a bright window",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "bathroom-01",
+          "url": "/images/bathroom-01.jpg",
+          "alt": "Modern bathroom with a walk-in shower and white tile",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "full-kitchen",
+      "title": "Full kitchen",
+      "description": "Refrigerator · Stove · Cookware · Coffee maker · Dining table",
+      "layout": "feature",
+      "photos": [
+        {
+          "id": "kitchen-01",
+          "url": "/images/kitchen-01.jpg",
+          "alt": "White kitchen with cabinets, counter space, and appliances",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "kitchen-02",
+          "url": "/images/kitchen-02.jpg",
+          "alt": "Kitchen counter with a sink and cooking space",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "kitchen-03",
+          "url": "/images/kitchen-03.jpg",
+          "alt": "Luxury kitchen with dark counters and warm lighting",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    },
+    {
+      "id": "gym",
+      "title": "Gym",
+      "description": "Shared gym · Cardio equipment · Free weights",
+      "layout": "columns",
+      "photos": [
+        {
+          "id": "gym-01",
+          "url": "/images/gym-01.jpg",
+          "alt": "Indoor gym with cardio machines and open floor space",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "id": "gym-02",
+          "url": "/images/gym-02.jpg",
+          "alt": "Gym interior with weights and training equipment",
+          "width": 1600,
+          "height": 1067
+        }
+      ]
+    }
+  ]
+}
